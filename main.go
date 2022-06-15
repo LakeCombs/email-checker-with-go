@@ -18,7 +18,7 @@ func main() {
 	}
 
 	if err := scanner.Err(); err != nil {
-		log.Fatal("error: could not read from input: %v\n", err)
+		log.Fatal(err)
 	}
 
 }
